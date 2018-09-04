@@ -16,8 +16,8 @@ public class WXConfigUtil implements WXPayConfig {
     public static final String MCH_ID = "商户id";
 
     public WXConfigUtil() throws Exception {
-//        String certPath = "证书地址";//从微信商户平台下载的安全证书存放的路径
-        String certPath = "C:\\tomcat\\weixin\\apiclient_cert.p12";//从微信商户平台下载的安全证书存放的路径
+        String certPath = "证书地址";//从微信商户平台下载的安全证书存放的路径
+        
 
         File file = new File(certPath);
         InputStream certStream = new FileInputStream(file);
