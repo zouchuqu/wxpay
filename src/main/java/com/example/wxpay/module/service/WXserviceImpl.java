@@ -14,8 +14,8 @@ import java.util.Map;
 @Service
 public class WXserviceImpl implements WXservice {
     private static final Logger logger = LoggerFactory.getLogger("MainLogger");
-    public static final String SPBILL_CREATE_IP = "120.79.246.227";
-    public static final String NOTIFY_URL = "http://www.hingin.vip/v1/weixin/notify.json";
+    public static final String SPBILL_CREATE_IP = "你的服务器ip地址";
+    public static final String NOTIFY_URL = "http://你的域名/v1/weixin/notify.json";
     public static final String TRADE_TYPE_APP = "APP";
 
 
