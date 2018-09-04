@@ -11,9 +11,9 @@ import java.io.InputStream;
 
 public class WXConfigUtil implements WXPayConfig {
     private byte[] certData;
-    public static final String APP_ID = "wx8e1fc3104d43b5d0";
-    public static final String KEY = "HinginZhaochangjian201808291556x";
-    public static final String MCH_ID = "1513403601";
+    public static final String APP_ID = "应用id";
+    public static final String KEY = "秘钥";
+    public static final String MCH_ID = "商户id";
 
     public WXConfigUtil() throws Exception {
 //        String certPath = "证书地址";//从微信商户平台下载的安全证书存放的路径
